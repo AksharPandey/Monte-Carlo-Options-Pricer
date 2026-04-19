@@ -9,7 +9,7 @@ A Python project that prices European put and call options using Monte Carlo sim
 
 ## Run
 ```bash
-python your_file_name.py
+Monte Carlo Options Pricing.py
 ```
 
 ## Example

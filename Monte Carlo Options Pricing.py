@@ -38,6 +38,7 @@ else:
 print("The Option price is", np.mean(payoff) * np.exp(-r*T))
 # Discount factor so -r * T is amount of discounting
 
+plt.style.use('dark_background')
 plt.plot(CumSum[:50, :].T)
 plt.show()
 

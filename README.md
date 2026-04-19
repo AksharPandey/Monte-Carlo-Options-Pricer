@@ -1,20 +1,24 @@
-# Monte-carlo-options-pricer
-Interactive Monte Carlo European Put/Call Pricer (Python)
+# Monte Carlo Option Pricer
 
-Monte Carlo Put Pricer
+A Python project that prices European put and call options using Monte Carlo simulation.
 
-Prices European puts with GBM Monte Carlo.
+## Features
+- User inputs for stock price, strike, time, rate, volatility, steps, and simulations
+- Put or call option pricing
+- Price path plotting
 
-**Run it:**
+## Run
 ```bash
-Monte Carlo Options Pricing.py
+python your_file_name.py
 ```
 
-**Inputs:** S0, K, T, r, vol, steps, sims, put/call
-**Output:** Put/Call Price price
+## Example
+- S0: 100
+- K: 105
+- T: 1
+- r: 0.05
+- vol: 0.2
+- steps: 252
+- sims: 10000
 
-Example: S0=100 K=105 T=1 r=0.05 sigma=0.2 steps=252 sims=10000 → ~8.02
-
-Plots first 50 paths too.
-
--Akshar
+<img width="1599" height="824" alt="image" src="https://github.com/user-attachments/assets/e3b7d0de-1a0f-418d-bc62-1d91b290ae57" />
